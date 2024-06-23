@@ -1,0 +1,25 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-left: 20px;
+}
+
+.listItem {
+    color: rgb(125, 245, 201);
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.listItem a:hover,
+.listItem a:focus {
+    color: rgb(226, 243, 73);
+    filter: drop-shadow(5px 5px 5px rgb(1, 24, 9));
+}

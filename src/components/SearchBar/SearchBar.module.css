@@ -1,0 +1,36 @@
+
+.form {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.input {
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 10px 15px;
+    box-shadow: 0px 8px 20px 0px rgb(113, 158, 127);
+    background-color: transparent;
+}
+
+input::placeholder {
+    color: rgb(125, 245, 201);
+    font-family: 'Briem Hand', sans-serif;
+}
+
+input:hover {
+    color: rgb(171, 218, 186);
+    filter: drop-shadow(5px 5px 5px rgb(126, 172, 139));
+}
+
+.button {
+     color: rgb(125, 245, 201);
+    box-shadow: 0px 8px 20px 0px rgb(171, 218, 186);
+    padding: 4px 15px;
+    background-color: transparent;
+}
+
+.button:hover {
+    color: rgb(171, 218, 186);
+    filter: drop-shadow(5px 5px 5px rgb(158, 207, 170));
+}
